@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Core Sans D 35';
+    src: url('CoreSansD35Regular.eot');
+    src: url('CoreSansD35Regular.eot?#iefix') format('embedded-opentype'),
+        url('CoreSansD35Regular.woff2') format('woff2'),
+        url('CoreSansD35Regular.woff') format('woff'),
+        url('CoreSansD35Regular.ttf') format('truetype'),
+        url('CoreSansD35Regular.svg#CoreSansD35Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

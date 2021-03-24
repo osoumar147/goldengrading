@@ -1,0 +1,411 @@
+
+/*Theme Name:Golden Grading
+Theme URL: 
+Author: OSO Developers
+Author URI: https://oso.nyc/
+Description: We offer professional and affordable custom business applications,website design, website development and Ecommerce solutions. 
+Version:1.0
+*/
+
+@font-face {
+	font-family: 'd77';
+	src: url('fonts/CoreSansD77CnBlack.eot');
+	src: url('fonts/CoreSansD77CnBlack.eot?#iefix') format('embedded-opentype'),
+	url('fonts/CoreSansD77CnBlack.woff2') format('woff2'),
+	url('fonts/CoreSansD77CnBlack.woff') format('woff'),
+	url('fonts/CoreSansD77CnBlack.ttf') format('truetype'),
+	url('fonts/CoreSansD77CnBlack.svg#CoreSansD77CnBlack') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'D35';
+	src: url('fonts/d35/CoreSansD35Regular.eot');
+	src: url('fonts/d35/CoreSansD35Regular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/d35/CoreSansD35Regular.woff2') format('woff2'),
+	url('fonts/d35/CoreSansD35Regular.woff') format('woff'),
+	url('fonts/d35/CoreSansD35Regular.ttf') format('truetype'),
+	url('fonts/d35/CoreSansD35Regular.svg#CoreSansD35Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+html{
+	font-size: 1.171vw;
+}
+body{
+	font-family: 'D35'!important;
+	font-size: 0.95rem!important;
+}
+#return-to-top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: #7d877e;
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 99;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 10%;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -75%);
+    font-size: 1rem;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+}
+h2 {
+    font-size: 3rem!important;
+    line-height: 4.2rem;
+    font-family: 'd77'!important;
+}
+/*404*/
+.error-404 h1 {
+	font-size: 4rem;
+	font-family: 'd77';
+	padding: 0;
+	margin: 0;
+}
+
+
+/*404 end*/
+
+
+/*footer*/
+
+.footer__col img {
+	max-width: 100%;
+	height: 100%;
+	width: 5rem;
+}
+.footer_content .row{
+	justify-content: space-between;
+
+}
+.terms_con a{
+	color: #827d7d;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+}
+.terms_con{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+}
+.textwidget ul li a {
+	color: #827d7d;
+	font-size: 0.75rem;
+	font-family: 'D35';
+	font-weight: 700;
+	display:inline-block;
+}
+.copyright-text p{
+	font-size: 0.75rem;
+}
+.copyright-text p{
+	margin:0;
+}
+.copyright-text {
+    padding: 0.6rem 0.6rem 1rem 0.6rem;
+    margin-top: 2rem;
+    border-top: .01rem solid #464646;
+}
+.textwidget ul li a:hover,
+.terms_con a:hover{
+	color: #785aff;
+}
+.textwidget p {
+    color: #827d7d;
+    font-size: 0.8rem;
+    font-family: 'D35';
+    font-weight: 700;
+}
+footer#colophon {
+	background-color: #252525;
+	padding: 2rem 2rem 1rem 2rem;
+	color: rgba(255,255,255,.4);
+}
+h2.widget-title {
+	font-family: 'd77';
+	font-size: 1.1rem!important;
+	color: rgba(255,255,255,.6);
+}
+.textwidget ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.banner__section {
+	height: 8rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	background-position: center;
+	display: flex;
+	padding: 2rem;
+}
+.banner__title{
+	color: #fff;
+	font-family: 'd77';
+	font-size: 2.9rem;
+	padding:0;
+	margin:0;
+	text-transform: uppercase;
+
+}
+.terms__sec p .copyright-text p {
+    font-size: .95rem;
+}
+
+.terms__sec em{
+	font-family: 'd35';
+	font-style: normal;
+}
+/*footer end*/
+img.custom-logo {
+	max-width: 5rem;
+	height: 100%;
+}
+.top__banner h1 {
+	color: #785aff;
+	font-size: 6.3rem;
+	font-family: 'd77'!important;
+}
+
+.top__banner  h2 {
+	color: #785aff;
+	text-align: center;
+	font-size: 9.5rem!important;
+	font-family: 'd77'!important;
+	margin-top: -3rem;
+}
+
+.top__banner h3 {
+	color: #fff;
+	text-align: center;
+	padding: 0;
+	margin-top: -1rem;
+	font-size: 3.1rem;
+	font-family: 'd77'!important;
+}
+a,a:hover{
+	transition: .3s ease;
+	-webkit-transition: .3s ease;
+	text-decoration: none!important;
+}
+.top__banner a:hover,
+.error-404 a:hover{
+	background-color: #624ace;
+	color: #fff;
+}
+.top__banner .wpb_single_image img {
+
+	width: 100rem;
+
+}
+.home__bottom img {
+	width: 2.5rem;
+	height: 100%;
+	margin: 0 0.2rem;
+}
+.home__bottom a{
+	display:inline-flex;
+}
+.home__bottom .wpb_wrapper{
+	text-align: center;
+}
+.home__bottom p{
+	margin-bottom: 0;
+	font-size: 3rem;
+	margin-right: 2rem;
+	display:inline-block;
+	font-family: 'd77';
+}
+li.menu-item-has-children:hover > .sub-menu{
+	display:block;
+}
+ul.sub-menu {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background-color: #ccc;
+	top: 3rem;
+	min-width: 10rem;
+	z-index: 99;
+	display: none;
+}
+#primary-menu li.current-menu-item a {
+	color: #785aff;
+}
+.top__banner a, .error-404 a {
+	background: #785aff;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: .25rem;
+	font-family: d77;
+	font-size: 0.9rem;
+	margin-bottom: 0rem!important;
+	padding: 0.3rem 0.8rem;
+	display: inline-block;
+}
+.top__banner p {
+	font-size: 1.6rem;
+	font-family: 'D35';
+	color: #fff;
+	font-weight: 100;
+}
+/* ----Navigation Start------*/
+#primary-menu li{
+	display: inline-block;
+}
+#primary-menu {
+	list-style-type: none;
+	padding:0;
+	margin: 0;
+}
+
+#primary-menu li a {
+	font-family: 'd77';
+	text-transform: uppercase;
+	font-size: 1.05rem;
+	color: #111;
+	padding: 1rem 1.2rem;
+	display: inline-block;
+}
+
+header#masthead {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: .5rem 1rem;
+	background: white;
+}
+
+/* ----Navigation End-------*/
+
+main#primary {
+	padding-top: 7rem;
+}
+.section__title  p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.section__title .vc_column-inner {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.section__title .wpb_text_column {
+    margin: 0!important;
+}
+.section__title a{
+	font-size: 1.15rem;
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'd77';
+}
+.contact__col > div {
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 1.8rem;
+}
+.contact__col label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 1.05rem;
+    font-family: 'd77';
+}
+.contact__col select.wpcf7-form-control.wpcf7-select,
+.contact__col input.wpcf7-form-control,
+.contact__col textarea.wpcf7-form-control{
+border: 1px solid rgba(0,0,0,.2);
+    background: #fff;
+    font-family: d37;
+    font-size: 1rem;
+    padding: 10px;
+        font-family: 'D35';
+    display: block;
+}
+.contact__col input.wpcf7-form-control,
+.contact__col textarea.wpcf7-form-control {
+    
+    max-width: 100%;
+    width: 100%;
+
+}
+input:focus,
+textarea:focus{
+	outline: none;
+}
+
+
+
+/* ----Responsive-------*/
+@media (min-width: 1200px) {
+	.site-footer .container{
+		max-width: 80rem!important;
+	}
+	.container{
+		max-width: 75rem!important;
+	}
+}
+@media (max-width: 1199px) {
+	html{
+		font-size: 15.5px;
+	}
+
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 575px) {
+	.footer__col {
+    padding: 10px 5px;
+}
+
+}
+@media (max-width: 479px) {
+	footer#colophon {
+    padding: 2rem 1rem 1rem 1rem;
+}
+	.footer__col {
+    width: 100%;
+}
+	
+
+}
+
+/* ----Responsive End-------

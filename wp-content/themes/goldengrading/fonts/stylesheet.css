@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Core Sans D 77 Cn';
+    src: url('CoreSansD77CnBlack.eot');
+    src: url('CoreSansD77CnBlack.eot?#iefix') format('embedded-opentype'),
+        url('CoreSansD77CnBlack.woff2') format('woff2'),
+        url('CoreSansD77CnBlack.woff') format('woff'),
+        url('CoreSansD77CnBlack.ttf') format('truetype'),
+        url('CoreSansD77CnBlack.svg#CoreSansD77CnBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
