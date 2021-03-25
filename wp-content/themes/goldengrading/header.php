@@ -13,14 +13,14 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
-		
+		<div class="container">
 			<div class="row mx-0 align-items-center">
-				<div class="col-lg-1 col-md-3 col-sm-6 col-4">		
+				<div class="col-lg-1 col-md-2 col-sm-6 col-6 pl-0">		
 					<div class="site-branding">
 						<?php the_custom_logo();?>
 					</div>
 				</div>
-				<div class="col-lg-11 col-md-9 col-sm-6 col-8">
+				<div class="col-lg-11 col-md-10 col-sm-6 col-8">
 					<nav id="site-navigation" class="main-navigation">
 						
 						<?php
@@ -34,5 +34,5 @@
 					</nav><!-- #site-navigation -->
 				</div>
 			</div>
-		
+		</div>
 	</header><!-- #masthead -->

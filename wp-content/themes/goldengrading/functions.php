@@ -1,4 +1,9 @@
 <?php
+
+if ( is_user_logged_in() ) {
+	//add_filter('show_admin_bar', '__return_true');
+}
+
 function my_theme_setup() {
 // This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
